@@ -1,6 +1,5 @@
 <script lang="ts">
   import { deleteTodo, todos, toggleTodo } from '../store/todoStore';
-
   const handleToggle = (id: string): void => {
     toggleTodo(id);
   };

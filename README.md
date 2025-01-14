@@ -1,21 +1,22 @@
 # Svelte Todo App with TypeScript
 
-A type-safe, responsive todo application built with Svelte and TypeScript, showcasing modern front-end development practices and clean code principles.
+A responsive todo application built with Svelte and TypeScript.
 
 ## Features
 
 - TypeScript for enhanced type safety and developer experience
 - Add new todos
 - Mark todos as completed
+- Delete todos
 - Responsive design for both desktop and mobile
 - Clean and intuitive user interface
-- Persistent state management using Svelte stores
+- State management using Svelte stores
 
 ## Getting Started
 
 ### Prerequisites
 
-- Node.js (v14 or higher)
+- Node.js
 - npm or yarn
 
 ### Installation
@@ -26,8 +27,8 @@ bash
 
 Copy
 
-`git clone <repository-url>
-cd svelte-todo-app`
+`git clone <git@github.com:aishacodes/Svelte-todo-app.git>
+cd todo-app`
 
 1.  Install dependencies:
 
@@ -53,7 +54,7 @@ Copy
 
 yarn dev`
 
-The application will be available at `http://localhost:5000`.
+The application will be available at `http://localhost:5173/`.
 
 ## Project Structure
 
@@ -63,7 +64,7 @@ Copy
 ├── components/
 │   ├── AddTodo.svelte
 │   └── TodoList.svelte
-├── stores/
+├── store/
 │   └── todoStore.ts
 ├── types/
 │   └── index.ts
@@ -77,34 +78,3 @@ Copy
 - Svelte - Front-end framework
 - TypeScript - Type-safe JavaScript
 - CSS3 - Custom styling with responsive design
-- UUID - Unique ID generation for todos
-
-### TypeScript Integration
-
-The project uses TypeScript for enhanced type safety and developer experience:
-
-1.  **Type Definitions**:
-    - Clear interface definitions for Todo items
-    - Type-safe Svelte stores
-    - Proper event typing
-2.  **Type Safety**:
-    - Compile-time type checking
-    - Improved code reliability
-    - Better IDE support and autocompletion
-3.  **Configuration**:
-    - Strict TypeScript configuration
-    - Svelte-specific TypeScript setup
-    - Node.js-compatible module resolution
-
-### Design Decisions
-
-1.  **Component Structure**:
-    - Modular components for better maintainability
-    - Separation of concerns between UI components and state management
-    - Type-safe component props and events
-2.  **State Management**:
-    - Typed Svelte stores for centralized state management
-    - Immutable updates for predictable state changes
-    - Type-safe store operations
-3.  **Styling**:
-    - Custom CSS with BEM-like
