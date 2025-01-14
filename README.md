@@ -25,16 +25,12 @@ A responsive todo application built with Svelte and TypeScript.
 
 bash
 
-Copy
-
 `git clone <git@github.com:aishacodes/Svelte-todo-app.git>
 cd todo-app`
 
 1.  Install dependencies:
 
 bash
-
-Copy
 
 `npm install
 
@@ -46,8 +42,6 @@ yarn`
 
 bash
 
-Copy
-
 `npm run dev
 
 # or
@@ -58,9 +52,8 @@ The application will be available at `http://localhost:5173/`.
 
 ## Project Structure
 
-Copy
-
-`src/
+```
+src/
 ├── components/
 │   ├── AddTodo.svelte
 │   └── TodoList.svelte
@@ -70,6 +63,8 @@ Copy
 │   └── index.ts
 ├── App.svelte
 └── main.ts`
+
+```
 
 ## Implementation Details
 
