@@ -30,7 +30,7 @@ git clone <git@github.com:aishacodes/Svelte-todo-app.git>
 cd todo-app
 ```
 
-1.  Install dependencies:
+2.  Install dependencies:
 
 bash
 
@@ -44,7 +44,7 @@ npm install
 yarn
 ```
 
-1.  Start the development server:
+3.  Start the development server:
 
 bash
 
